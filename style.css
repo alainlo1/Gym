@@ -1,0 +1,110 @@
+html, body {margin:0;padding: 0;
+background-color: gainsboro;}
+
+
+.header {
+  background: linear-gradient(to right, black 40%, transparent 70%),
+    url("images/gym-accueil.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    
+}
+.info {
+    background-image: url(points.png);
+    background-size: 25%;
+
+}
+.points {
+    position: absolute;
+    margin-left: 9%;
+}
+/*
+.gl {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+    align-items: center.;
+    justify-content: center;
+    padding: 10px;
+}*/
+
+
+
+.container{
+    bottom: 13%;
+
+}
+.container img{
+    width: 85%;
+    padding: 15px;
+}
+
+.courage {
+    background-image: url(img-paral.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+}
+.courage h2{
+    padding: 120px;
+}
+
+
+
+
+/*****************ANIMATIONS*************/
+
+
+
+/***LE BAIL AVEC LE LIEN**/
+
+.animate__animated.animate__pulse:hover {
+  --animate-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.btn1 {
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    background-color: black;
+     border: solid 1px;
+}
+.btn1:hover {
+    background-color: white;
+    color: black;     
+}
+
+
+
+.btn2 {
+     padding: 1px 100px;
+     text-align: center;
+     cursor: pointer;
+     color: white;
+     background-color: black;
+     border: solid 1px;
+}
+.btn2:hover {
+     background-color: white;
+     color: black;    
+}
+
+
+
+.btn3 {
+     padding: 10px 40px;
+     font-size: 24px;
+     text-align: center;
+     cursor: pointer;
+     color: black;
+     background-color: none;
+     border: solid 2px;
+}
+.btn3:hover {
+     background-color: black;
+     color: white;       
+}
+
+
